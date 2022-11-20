@@ -301,4 +301,6 @@ function init()
     config.TryBindKey("Alt-MouseRight", "lua:nav.grepClick", false)
 
     config.TryBindKey("F9", "lua:nav.jumpBack", false)
+
+    config.AddRuntimeFile("nav", config.RTHelp, "help/nav.md")
 end
