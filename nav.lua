@@ -21,7 +21,7 @@ end
 function jumpPop(bp)
     local id = bp:ID()
     if jumpStack[id] == nil then
-        return
+        return nil
     end
 
     local s = table.remove(jumpStack[id])
