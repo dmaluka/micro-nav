@@ -74,7 +74,6 @@ function doJump(bp, buf, loc, push)
         bp:GotoLoc(loc)
     end
     bp:ClearInfo()
-    return true
 end
 
 function jump(bp, path, loc, push)
