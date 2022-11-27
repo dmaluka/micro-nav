@@ -74,7 +74,7 @@ wish, by modifying the corresponding bindings in your `bindings.json`.
   manage to interrupt grep via Ctrl-C (within the time window between
   fzf exit and subsequent grep exit), then the entire Micro terminates,
   even if there are unsaved changes!
-* Various grep flags (e.g. `-F`, `-E`) aren't properly supported
+* Various grep flags (e.g. `-F`, `-P`) aren't properly supported
 * Patterns with various special characters (e.g. quotes, backslashes,
   parentheses) aren't properly supported
 * ...

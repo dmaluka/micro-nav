@@ -147,7 +147,7 @@ function isMultiline(output)
     return m ~= fail and m < string.len(output)
 end
 
-local grepProg = "grep -rnPI --exclude-dir=.git --color=always"
+local grepProg = "grep -rnEI --exclude-dir=.git --color=always"
 local tagProg = "global --result=grep"
 local fzfProg = "fzf --layout=reverse --ansi"
 
