@@ -57,7 +57,7 @@ project.
   will instead jump back to the location where we were before the last
   jump.
 
-* `Ctrl-MouseLeft` click on a word will search for occurrences of this
+* `Alt-MouseRight` click on a word will search for occurrences of this
   word in all files in the current directory, just like with the `grep`
   command. If the click is not on a word, it will instead jump back to
   the location where we were before the last jump.
