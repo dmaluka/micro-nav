@@ -73,10 +73,11 @@ wish, by modifying the corresponding bindings in your `bindings.json`.
 * If grep takes long and we exit fzf before grep completes, if we then
   manage to interrupt grep via Ctrl-C (within the time window between
   fzf exit and subsequent grep exit), then the entire Micro terminates,
-  even if there are unsaved changes!
+  even if there are unsaved changes! (Actually this seems to be a known
+  Micro's issue [#2612](https://github.com/zyedidia/micro/issues/2612))
 * Various grep flags (e.g. `-F`, `-P`) aren't properly supported
 * Patterns with various special characters (e.g. quotes, backslashes,
-  parentheses) aren't properly supported
+  parentheses, spaces) aren't properly supported
 * ...
 
 Patches are welcome.
